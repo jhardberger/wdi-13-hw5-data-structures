@@ -38,7 +38,7 @@ const saltySardinesFinder = [
 	},
 	{
 		name: 'fil',
-		locatoin: 'the burbs'
+		location: 'the burbs'
 	}
 ];
 
@@ -58,4 +58,21 @@ const saltySardinesTVFinder = [
 ];
 
 
+//2. 
 
+const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+console.log(rainbow[4]);
+
+const john = {
+	fullName: 'John Reeves Hardberger',
+	favoriteFoods: ['movie theater popcorn', 'peaches', 'pastrami'],
+	hobby: 'rock climbing',
+	location: 'Chicago',
+	favDataType: 'arrays I guess'
+}
+
+console.log(john.favDataType);
+console.log(john.favoriteFoods[2]);
+
+console.log(john.hobby);
