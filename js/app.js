@@ -196,3 +196,14 @@ for (i = 0; i < bondFilms.length; i++) {
 console.log(oddBonds)
 ;
 
+
+//7. 
+
+let bondFilmsNetGross = 0;
+
+for (i = 0; i < bondFilms.length; i++) {
+	let filmGross = Number(bondFilms[i].gross.replace(/[^0-9.-]+/g,"")) //found this online - removes anything not dot or digit. neat. 
+	bondFilmsNetGross += filmGross
+};
+
+console.log(bondFilmsNetGross); // <-- 13821621224
