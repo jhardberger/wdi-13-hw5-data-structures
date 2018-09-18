@@ -62,7 +62,7 @@ const saltySardinesTVFinder = [
 
 const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
-console.log(rainbow[4]);
+// console.log(rainbow[4]);
 
 const john = {
 	fullName: 'John Reeves Hardberger',
@@ -72,10 +72,10 @@ const john = {
 	favDataType: 'arrays I guess'
 }
 
-console.log(john.favDataType);
-console.log(john.favoriteFoods[2]);
+// console.log(john.favDataType);
+// console.log(john.favoriteFoods[2]);
 
-console.log(john.hobby);
+// console.log(john.hobby);
 
 
 //3. 
@@ -112,12 +112,40 @@ const crazyObject = {
   }
 };
 
-console.log(crazyObject.taco[1].salsa[5]);
+// console.log(crazyObject.taco[1].salsa[5]);
 
-console.log(crazyObject.larry.quotes[0]);
+// console.log(crazyObject.larry.quotes[0]);
 
-console.log(crazyObject.larry.characters[2].favourtieHobby);
+// console.log(crazyObject.larry.characters[2].favourtieHobby);
 
-console.log(crazyObject.larry.nicknames[1]);
+// console.log(crazyObject.larry.nicknames[1]);
 
-console.log(crazyObject.larry.characters[1]);
+// console.log(crazyObject.larry.characters[1]);
+
+
+//4. 
+
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null;
+
+
+//5. 
+
+
